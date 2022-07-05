@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+}
+
+
+.hidden{
+    display: none;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    color: rgb(14, 82, 142);
+    display: flex;
+    justify-content: center;
+}
+
+.choose{
+    color: rgb(14, 82, 142);
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    
+}
+
+.clock{
+    border: rgb(14, 82, 142) 2px solid;
+    cursor: pointer;
+}
+
+.stopwatch{
+    border: rgb(14, 82, 142) 2px solid;
+    cursor: pointer;
+}
+
+.content{
+    /* background-color: white; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px
+}
+
+.time{
+    font-size: 2cm;
+    color: rgb(14, 82, 142);
+}
+.stopwatch-cocntent{
+    color: rgb(14, 82, 142);
+}
+
+.timer{
+    color: rgb(14, 82, 142);
+    font-size: 2cm;
+}
+
+.buttons{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.start{
+    cursor: pointer;
+}
+
+.reset{
+    cursor: pointer;
+}
+
+.stop{
+    cursor: pointer;
+}
