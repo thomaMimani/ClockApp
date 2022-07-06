@@ -21,17 +21,17 @@
             </div>
         </div>
         <div class="content">
-            <div class="time ">
+            <div class="time hidden ">
                 <h1 class="realTime">00:00:00 PM</h1>
             </div>
-            <div class="stopwatch-cocntent hidden">
+            <div class="stopwatch-cocntent ">
                 <div class="timer">
-                    <h1>00:00:000</h1>
+                    <h1 class="timerEl"><span class="min"></span> :<span class="sec"></span> :<span class="mil"></span></h1>
                 </div>
                 <div class="buttons">
-                    <div class="start"><h1>Start</h1></div>
-                    <div class="reset"><h1>Reset</h1></div>
-                    <div class="stop"><h1>Stop</h1></div>
+                    <div class="start" onclick="start()"><h1>Start</h1></div>
+                    <div class="reset" onclick="reset()"><h1>Reset</h1></div>
+                    <div class="stop" onclick="stop()"><h1>Stop</h1></div>
                 </div>
             </div>
         </div>
