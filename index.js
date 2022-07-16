@@ -8,7 +8,7 @@ let realTime = document.querySelector(`.realTime`)
 
 let startBtn = document.querySelector(`.start`)
 
-
+// Choose buttons
 
 function clock(){
     time.classList.remove(`hidden`)
@@ -16,8 +16,6 @@ function clock(){
     
     
 }
-
-
 
 
 function stopwatch(){
@@ -111,3 +109,6 @@ secEl.textContent=`0`+sec
 milEl.textContent=`0`+mil
 
 }
+
+
+// count down functionaity
