@@ -3,6 +3,7 @@ let stopwatchBtn = document.querySelector(`.stopwatch`)
 
 let time = document.querySelector(`.time`)
 let stopWatch = document.querySelector(`.stopwatch-cocntent`)
+let countDown = document.querySelector(`.count-down`)
 
 let realTime = document.querySelector(`.realTime`)
 
@@ -13,6 +14,7 @@ let startBtn = document.querySelector(`.start`)
 function clock(){
     time.classList.remove(`hidden`)
     stopWatch.classList.add(`hidden`)
+    countDown.classList.add(`hidden`)
     
     
 }
@@ -21,8 +23,15 @@ function clock(){
 function stopwatch(){
     stopWatch.classList.remove(`hidden`)
     time.classList.add(`hidden`)
+    countDown.classList.add(`hidden`)
+
 }
 
+function countDownBtn(){
+    stopWatch.classList.add(`hidden`)
+    time.classList.add(`hidden`)
+    countDown.classList.remove(`hidden`)
+}
 // Clock funcionality
 
 function currentTime(time){
@@ -112,3 +121,4 @@ milEl.textContent=`0`+mil
 
 
 // count down functionaity
+
